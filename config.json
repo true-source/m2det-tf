@@ -19,13 +19,14 @@
     },
 
 	"train":{
-                "images_dir":   "/home/purackal/projects/hobby/m2det-tf/datasets/minicoco/",
-                "labels_dir":   "/home/purackal/projects/hobby/m2det-tf/datasets/minicoco/",     
+                "images_dir":   "datasets/minicoco/",
+                "labels_dir":   "datasets/minicoco/",     
                 "pretrained_weights":   "",
                 "batch_size":           3,
                 "learning_rate":        1e-4,
-                "nb_epochs":            1,
+                "nb_epochs":            500,
                 "saved_weights_name":   "coco2017.h5",
+                "model_dir":            "saved_model/",
                 "debug":                true,
                 "pre_nms_thresh":       0.5,
                 "post_nms_thresh":      0.5
